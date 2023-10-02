@@ -55,7 +55,6 @@ def test_random_list():
     """
 
     # TODO создайте список
-    l = []
     l = random.sample(range(1, 100), 10)
     l.sort()
     assert len(l) == 10
